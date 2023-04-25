@@ -1,14 +1,14 @@
 export const theme = {
   colors: {
-    black: '#000',
     white: '#fff',
     text: '#2a2a2a',
     background: '#f3f3f3',
     primary: '#2b3162',
     secondary: '#a19d9d',
     lightGray: '#d6d6d6',
+    tableHat: '#2CADC1',
     },
-  space: [0, 2, 4, 8, 16, 32, 64, 128, 256],
+  space: [0, 2, 4, 8, 16, 32, 64],
   fonts: {
     body: 'system-ui, sans-serif',
     main: 'Roboto',

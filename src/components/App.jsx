@@ -7,11 +7,10 @@ import { Statistics } from './Statistics/Statistics';
 import friends from './Data/friends.json';
 import { FriendList } from './Friends/FriendList/FriendList';
 
-// import transactions from './TransactionHistory/transactions.json';
-// import { TransactionHistory } from './TransactionHistory/TransactionHistory';
+import transactions from './Data/transactions.json';
+import { TransactionHistory } from './TransactionHistory/TransactionHistory';
 
 
-// import { GlobalStyles } from '../GlobalStyles'
 import { Section } from './Section'
 
 
@@ -34,10 +33,8 @@ export const App = () => {
         
       <Statistics title="Upload stats" stats={data} />
       <FriendList friends={friends} />
+      <TransactionHistory items={transactions} /> 
 
-{/* <TransactionHistory items={transactions} /> 
-<GlobalStyles />  */}
-      
       </Section>
   );
 };
