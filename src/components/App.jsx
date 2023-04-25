@@ -1,6 +1,6 @@
 import user from './ata/user.json';
 import { Profile } from './Profile/Profile';
-import data from './Data/data.json';
+import data from './ata/data.json';
 import { Statistics } from './Statistics/Statistics';
 import friends from './ata/friends.json';
 import { FriendList } from './Friends/FriendList/FriendList';
