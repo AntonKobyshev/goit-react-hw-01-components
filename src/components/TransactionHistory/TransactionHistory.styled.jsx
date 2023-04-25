@@ -18,7 +18,7 @@ export const Thead = styled.thead`
 `;
 
 export const Tr = styled.tr`
-text-align: center;
+  text-align: center;
 `;
 
 export const ExtendedTr = styled(Tr)`
@@ -26,18 +26,13 @@ export const ExtendedTr = styled(Tr)`
     props.idx % 2 === 0 ? props.theme.colors.lightGray : 'transparent'};
 `;
 
-export const Th = styled.th` 
-
-
-`;
+export const Th = styled.th``;
 
 export const Tb = styled.tbody`
   background-color: ${props => props.theme.colors.white};
 `;
 
-export const Td = styled.td`
-  
-`;
+export const Td = styled.td``;
 
 export const Type = styled(Td)`
   text-transform: capitalize;

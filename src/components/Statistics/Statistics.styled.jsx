@@ -45,9 +45,9 @@ export const StatListItem = styled.li`
     border-bottom-left-radius: ${props => props.theme.radiuses.medium};
   }
   :last-child {
-    border-bottom-right-radius: 0${props => props.theme.radiuses.medium};
+    border-bottom-right-radius: 0 ${props => props.theme.radiuses.medium};
   }
-  background-color: ${props => getRandomHexColor(props.index)}
+  background-color: ${props => getRandomHexColor(props.index)};
 `;
 
 export const Label = styled.span`
@@ -56,7 +56,7 @@ export const Label = styled.span`
 `;
 
 export const Percentage = styled.span`
-  font-size:  ${props => props.theme.fontSizes.l};
+  font-size: ${props => props.theme.fontSizes.l};
   font-weight: ${props => props.theme.fontWeights.bold};
   color: ${props => props.theme.colors.white};
 `;

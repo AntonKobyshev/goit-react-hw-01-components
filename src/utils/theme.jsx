@@ -7,7 +7,7 @@ export const theme = {
     secondary: '#a19d9d',
     lightGray: '#d6d6d6',
     tableHat: '#2CADC1',
-    },
+  },
   space: [0, 2, 4, 8, 16, 32, 64],
   fonts: {
     body: 'system-ui, sans-serif',
@@ -25,7 +25,7 @@ export const theme = {
     normal: 400,
     bold: 700,
   },
-  
+
   borders: {
     none: 'none',
     normal: '2px solid',
@@ -33,7 +33,7 @@ export const theme = {
   radiuses: {
     round: '50%',
     none: '0',
-    small: '4px', 
+    small: '4px',
     medium: '6px',
     large: '8px',
   },

@@ -5,7 +5,7 @@ export const ProfileCard = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap:  ${props => props.theme.space[0]}px;
+  gap: ${props => props.theme.space[0]}px;
   margin: 0 auto;
   margin-bottom: ${props => props.theme.space[5]}px;
   width: 300px;
@@ -22,7 +22,7 @@ export const Description = styled.div`
   justify-content: center;
   gap: ${props => props.theme.space[3]}px;
   padding: ${props => props.theme.space[0]}px;
-  width: 100%;  
+  width: 100%;
   background-color: ${props => props.theme.colors.white};
 `;
 
@@ -55,7 +55,6 @@ export const Tag = styled(Info)`
   color: ${props => props.theme.colors.secondary};
   font-size: ${props => props.theme.fontSizes.m};
   font-weight: ${props => props.theme.fontWeights.normal};
-  
 `;
 
 export const Location = styled(Info)`
@@ -71,22 +70,23 @@ export const StatsList = styled.ul`
   align-items: center;
   padding: ${props => props.theme.space[4]}px;
   width: 100%;
-  border-top: ${props => props.theme.borders.normal} ${props => props.theme.colors.lightGray};
+  border-top: ${props => props.theme.borders.normal}
+    ${props => props.theme.colors.lightGray};
   margin: ${props => props.theme.space[0]}px;
   padding: ${props => props.theme.space[0]}px;
-  
 `;
 
 export const StatsItem = styled.li`
-display: flex;
-align-items: center;
-justify-content: center;
-flex-direction: column;
-gap: ${props => props.theme.space[3]}px;
-padding: ${props => props.theme.space[4]}px;
-width: 100%;
-  :not(:last-child){
-  border-right: ${props => props.theme.borders.normal} ${props => props.theme.colors.lightGray};
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: ${props => props.theme.space[3]}px;
+  padding: ${props => props.theme.space[4]}px;
+  width: 100%;
+  :not(:last-child) {
+    border-right: ${props => props.theme.borders.normal}
+      ${props => props.theme.colors.lightGray};
   }
 `;
 
