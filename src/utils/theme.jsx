@@ -6,33 +6,29 @@ export const theme = {
     background: '#f3f3f3',
     primary: '#2b3162',
     secondary: '#a19d9d',
-    accent: '#9e0202',
-    muted: '#dddff8',
     lightGray: '#d6d6d6',
     },
   space: [0, 2, 4, 8, 16, 32, 64, 128, 256],
   fonts: {
     body: 'system-ui, sans-serif',
-    heading: 'Roboto',
+    main: 'Roboto',
     monospace: 'Menlo, monospace',
   },
   fontSizes: {
     xs: '12px',
     s: '14px',
     m: '16px',
-    l: '24px',
+    l: '20px',
+    xl: '24px',
   },
   fontWeights: {
     normal: 400,
     bold: 700,
   },
-  lineHeights: {
-    body: 1.5,
-    heading: 1.125,
-  },
+  
   borders: {
     none: 'none',
-    normal: '1px solid',
+    normal: '2px solid',
   },
   radiuses: {
     round: '50%',
