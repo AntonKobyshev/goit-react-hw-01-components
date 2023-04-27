@@ -1,10 +1,10 @@
-import user from './data/user.json';
+import user from '../data/user.json';
 import { Profile } from './Profile/Profile';
-import data from './data/data.json';
+import data from '../data/data.json';
 import { Statistics } from './Statistics/Statistics';
-import friends from './data/friends.json';
+import friends from '../data/friends.json';
 import { FriendList } from './Friends/FriendList/FriendList';
-import transactions from './data/transactions.json';
+import transactions from '../data/transactions.json';
 import { TransactionHistory } from './TransactionHistory/TransactionHistory';
 import { Section } from './Section';
 
