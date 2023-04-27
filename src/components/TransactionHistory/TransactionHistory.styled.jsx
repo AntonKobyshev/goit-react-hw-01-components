@@ -19,21 +19,24 @@ export const Thead = styled.thead`
 
 export const Tr = styled.tr`
   text-align: center;
-`;
+  `;
 
-export const ExtendedTr = styled(Tr)`
-  background-color: ${props =>
-    props.idx % 2 === 0 ? props.theme.colors.lightGray : 'transparent'};
+export const Th = styled.th`
 `;
-
-export const Th = styled.th``;
 
 export const Tb = styled.tbody`
   background-color: ${props => props.theme.colors.white};
+  justify-content: space-between;
 `;
 
-export const Td = styled.td``;
-
-export const Type = styled(Td)`
-  text-transform: capitalize;
+export const Td = styled.td`
+text-transform: capitalize;
 `;
+
+export const Br = styled.tr`
+  text-align: center;
+  &:nth-of-type(2n) {
+    background-color: ${props => props.theme.colors.lightGray};
+  }
+`;
+
